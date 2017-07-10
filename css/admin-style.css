@@ -1,0 +1,192 @@
+/*
+------ ADMIN
+*/
+
+.sidebar {
+	position: fixed;
+	background: black;
+	min-height: 100%;
+}
+/*
+------ GLOBAL
+*/
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/*html {
+	padding: 0;
+	margin: 0;
+}*/
+
+a {
+	color: black;
+}
+
+.clear {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.col-md-3 {
+	padding: 10px;
+}
+
+.container {
+	margin-bottom: 50px;
+}
+
+.sidebar h2,
+.sidebar a {
+	color: white;
+}
+
+.sidebar a:hover {
+	color: black;
+}
+
+
+#status-span {
+	font-size: 14px;
+}
+
+
+
+
+
+/*
+------ ADMIN: LOGIN
+*/
+
+.admin-logo {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.admin-logo img {
+	height: 100%;
+	width: 100%;
+}
+
+.panel {
+	margin: 40px auto;
+	/*max-width: 500px;*/
+	padding: 25px;
+	border-top: 4px solid black;
+}
+
+.panel-body {
+	padding-left: 0;
+}
+
+.panel h3 {
+	width: 60px;
+}
+
+/*.panel input {
+	width: 0px;
+}*/
+
+.panel input[type="submit"] {
+	width: 120px;
+	border-radius: 0;
+	background: black;
+	color: white;
+}
+
+.panel .row {
+	margin-top: 10px;
+}
+
+
+#panel-login {
+	width: 500px;
+}
+.modal-content {
+	border-radius: 0;
+	border: 2px solid black;
+	box-shadow: none;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+/*
+------ ADMIN:USER MANAGEMENT
+*/
+
+#search-box {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.float-right {
+	float: right;
+}
+
+/*
+------ ADMIN:PRODUCT MANAGEMENT
+*/
+
+.img-responsive {
+	margin-bottom: 10px;
+}
+
+.item-image {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.item-image img {
+	height: 100%;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#price-width {
+	width: 200px;
+}
+
+.edit-image {
+	max-width: 300px;
+	 margin:0 auto;
+}
+
+.adjust {
+font-size: 12px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.edit-link {
+	text-decoration: underline;
+}
+
+#delete-panel {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/*
+------- ADMIN: FOOTER
+*/
+
+footer {
+	text-align: center;
+}
+
+#test-image {
+	height: 250px;
+	width: 250px;
+}
+

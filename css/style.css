@@ -1,0 +1,237 @@
+/*
+------ GLOBAL
+*/
+* {
+	font-family: 'Bubbler One', sans-serif;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.clear {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*
+------ NAVBAR
+*/
+
+.nav-contain {
+	max-width: 760px;
+}
+
+.navbar {
+	background: none;
+	border: 0;
+	margin-top: 20px;
+}
+.navbar-brand {
+	height: 150px;
+	max-width: 250px;
+}
+
+.navbar-brand img {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-nav a {
+	font-size: 17px;
+}
+
+.navbar-toggle {
+	margin-top: 50px;
+	border: 0;
+}
+
+.navbar-collapse {
+	margin-top: 30px;
+}
+
+@media screen and (min-width:768px){
+	.navbar {
+		margin: 0;
+	}
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+
+
+
+/*
+------ STORE
+*/
+
+.thumbnail {
+	border-radius: 0;
+}
+
+
+/*
+------ LOGIN 
+*/
+
+.panel {
+	margin: 40px auto;
+	max-width: 500px;
+	padding: 25px;
+	border-top: 4px solid black;
+}
+
+.panel-body {
+	padding-left: 0;
+}
+
+.panel h3 {
+	width: 60px;
+}
+
+/*.panel input {
+	width: 0px;
+}*/
+
+.panel input[type="submit"] {
+	width: 100px;
+	border-radius: 0;
+	background: black;
+}
+
+.panel .row {
+	margin-top: 10px;
+}
+
+
+/*
+------ ADMIN
+*/
+
+.sidebar {
+	position: fixed;
+	background: black;
+	min-height: 100%;
+}
+
+.sidebar h2,
+.sidebar a {
+	color: white;
+}
+
+.sidebar a:hover {
+	color: black;
+}
+
+
+.content {
+	margin-top: 50px;
+}
+
+#status-span {
+	font-size: 14px;
+}
+
+
+
+/*
+------ ADMIN: LOGIN
+*/
+
+.admin-logo {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.admin-logo img {
+	height: 100%;
+	width: 100%;
+}
+
+.modal-content {
+	border-radius: 0;
+	border-top: 3px solid black;
+	box-shadow: none;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+/*
+------ ADMIN: SIDENAV
+*/
+
+@media only screen and (max-width: 780px) {
+	.sidebar {
+		display: none;
+	}
+}
+
+/*
+------ ADMIN:USER MANAGEMENT
+*/
+
+#search-box {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.float-right {
+	float: right;
+}
+
+
+/*
+------ ADMIN:PRODUCT MANAGEMENT
+*/
+
+.img-responsive {
+	margin-bottom: 10px;
+}
+
+
+
+/*
+------ OFFICIAL:FOOTER
+*/
+
+footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*
+------- ADMIN: FOOTER
+*/
+
+#admin-footer {
+	background: black;
+	color: white;
+	height: 100px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+}
